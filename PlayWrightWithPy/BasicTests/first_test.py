@@ -1,3 +1,6 @@
+#This test will not be excuted as it is not prefixed with test_ and will be ignored by pytest
+
+
 from playwright.sync_api import sync_playwright
 
 with sync_playwright() as p:
